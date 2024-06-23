@@ -1,0 +1,130 @@
+.group {
+  justify-content: space-between;
+  display: flex;
+}
+
+.group--top {
+  margin-top: 16px;
+}
+
+.group__reviews {
+  text-align: right;
+  align-items: center;
+  height: 16px;
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  display: flex;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  background-image: url("star-active.2be54011.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  margin-right: 4px;
+}
+
+.stars__star--4 .stars__star:nth-child(n+5) {
+  background-image: url("star.fa806e3c.svg");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+:root {
+  --blue: #00acdc;
+}
+
+.product {
+  border: 1px solid #f3f3f3;
+  width: 200px;
+  padding: 32px 16px 16px;
+}
+
+.product__card {
+  width: 160px;
+  height: 134px;
+  margin: 0 auto;
+  display: block;
+}
+
+.product__name {
+  color: #060b35;
+  margin: 40px auto 0;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.product__code {
+  color: #616070;
+  margin: 4px 0 0;
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.product__prace {
+  justify-content: space-between;
+  height: 18px;
+  margin-top: 24px;
+}
+
+.product__label {
+  text-align: left;
+  color: #616070;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  display: flex;
+}
+
+.product__value {
+  text-align: right;
+  color: #060b35;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.product__button {
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  margin-top: 16px;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-decoration: none;
+  left: 17px;
+}
+
+.product__button:hover {
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  background-color: #fff;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=index.46e146cc.css.map */
